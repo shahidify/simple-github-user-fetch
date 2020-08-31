@@ -2,3 +2,27 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+form button {
+  padding: 5px;
+  margin: 0px 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+form input {
+  padding: 5px;
+  margin: 0px 5px;
+  font-size: 1rem;
+  background-color: #fff;
+  border-radius: 4px;
+}

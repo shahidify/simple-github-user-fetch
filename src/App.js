@@ -10,7 +10,7 @@ export default App = () => {
   };
 
   return (
-    <div>
+    <div className="App">
       <Form onSubmit={addNewCard} />
       <CardList cards={cards} />
     </div>
